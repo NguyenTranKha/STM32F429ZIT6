@@ -1,0 +1,19 @@
+--cpu=Cortex-M4.fp
+".\main.o"
+".\misc.o"
+".\stm32f4xx_gpio.o"
+".\stm32f4xx_i2c.o"
+".\stm32f4xx_spi.o"
+".\stm32f4xx_syscfg.o"
+".\stm32f4xx_tim.o"
+".\stm32f4xx_usart.o"
+".\stm32f4xx_wwdg.o"
+".\stm32f4xx_rcc.o"
+".\stm32f4xx_exti.o"
+".\stm32f4xx_dma.o"
+".\startup_stm32f429xx.o"
+".\system_stm32f4xx.o"
+--strict --scatter ".\stm32f4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\stm32f4.map" -o .\stm32f4.axf

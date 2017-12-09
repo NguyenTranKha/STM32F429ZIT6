@@ -1,0 +1,9 @@
+.\stm32f4xx_flash_ramfunc.o: STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c
+.\stm32f4xx_flash_ramfunc.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash_ramfunc.h
+.\stm32f4xx_flash_ramfunc.o: .\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\stm32f4xx_flash_ramfunc.o: .\CMSIS\Include\core_cm4.h
+.\stm32f4xx_flash_ramfunc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\stm32f4xx_flash_ramfunc.o: .\CMSIS\Include\core_cmInstr.h
+.\stm32f4xx_flash_ramfunc.o: .\CMSIS\Include\core_cmFunc.h
+.\stm32f4xx_flash_ramfunc.o: .\CMSIS\Include\core_cmSimd.h
+.\stm32f4xx_flash_ramfunc.o: .\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
